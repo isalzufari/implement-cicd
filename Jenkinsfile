@@ -12,7 +12,6 @@ pipeline {
             }
         }
     }
-<<<<<<< HEAD
     stage('Test') { 
       steps {
         sh './jenkins/scripts/test.sh' 
@@ -20,6 +19,3 @@ pipeline {
     }
   }
 }
-=======
-}
->>>>>>> d96b1ee0ad2dac2bf0eef74246b6a266dcb2154d
